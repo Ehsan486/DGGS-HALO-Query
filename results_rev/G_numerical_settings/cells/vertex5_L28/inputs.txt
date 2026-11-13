@@ -1,0 +1,13 @@
+name=vertex5_L28
+level=28
+distance_m=0.10000000000000001
+nominal_distance_m=0.10000000000000001
+near=none
+near_offset_m=0
+near_cell=0
+source=point on base mesh vertex 0 (valence 5)
+segments=1
+segment0=-31.717474411460991,180,-31.717474411460991,180
+max_cells=200000
+reference_allowance_m=1.0000000000000001e-05
+reference_tolerance_m=0.0001

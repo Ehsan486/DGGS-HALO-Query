@@ -1,0 +1,13 @@
+name=near_confirmed_plus2um_point_L28
+level=28
+distance_m=0.09997873177898331
+nominal_distance_m=0.10000000000000001
+near=confirmed
+near_offset_m=1.9999999999999999e-06
+near_cell=2184661062533664679
+source=point
+segments=1
+segment0=51.125,-114.11499999999999,51.125,-114.11499999999999
+max_cells=200000
+reference_allowance_m=1.0000000000000001e-05
+reference_tolerance_m=0.0001

@@ -1,0 +1,29 @@
+date: 2026-11-12T15:18:23.4726696-06:00
+
+
+Name                      : 12th Gen Intel(R) Core(TM) i7-12700K
+NumberOfCores             : 12
+NumberOfLogicalProcessors : 20
+
+
+
+
+memory_bytes: 68448198656
+
+
+Caption     : Microsoft Windows 11 Pro
+Version     : 10.0.26200
+BuildNumber : 26200
+
+
+
+
+name, memory.total [MiB], driver_version
+NVIDIA GeForce RTX 4070, 12282 MiB, 610.88
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2026 NVIDIA Corporation
+Built on Tue_Jun__9_14:30:19_Pacific_Daylight_Time_2026
+Cuda compilation tools, release 13.3, V13.3.73
+Build cuda_13.3.r13.3/compiler.38244171_0
+

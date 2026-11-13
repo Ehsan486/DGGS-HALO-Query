@@ -1,0 +1,13 @@
+name=near_excluded_plus2um_point_L20
+level=20
+distance_m=10.14724561609747
+nominal_distance_m=10
+near=excluded
+near_offset_m=1.9999999999999999e-06
+near_cell=2184661062353879040
+source=point
+segments=1
+segment0=51.125,-114.11499999999999,51.125,-114.11499999999999
+max_cells=200000
+reference_allowance_m=1.0000000000000001e-05
+reference_tolerance_m=0.0001

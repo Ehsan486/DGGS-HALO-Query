@@ -1,0 +1,383 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261112155959
+Username: EHSAN\ehsan
+RunAs User: EHSAN\ehsan
+Configuration Name: 
+Machine: EHSAN (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell -NoProfile -ExecutionPolicy Bypass -File C:\Users\ehsan\OneDrive\Documents\cube\Scalable_Atlas_Complete_Project_2026-09-15\claude_work\surface_opt\scripts\run_revision.ps1
+Process ID: 56476
+PSVersion: 5.1.26100.9818
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9818
+BuildVersion: 10.0.26100.9818
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+### 2026-11-12 15:59:59  START stage=ALL quick=False sessions=3 warmup=10 repeats=30 threads=20
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.10.1
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+-- CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/nvcc.exe
+-- CUDA toolkit:
+-- CUDA architectures: 89
+-- Configuring done (1.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/ehsan/OneDrive/Documents/cube/Scalable_Atlas_Complete_Project_2026-09-15/c
+laude_work/surface_opt/build_opt_cuda
+[6/6] Linking CXX executable Release\bafe_realworld_halo.exe
+PASS prefix hierarchy and conversions
+PASS independent coarse atlas oracle and exhaustive reciprocity through level 5
+PASS independent explicit refined-edge oracle at level 6
+PASS CPU/GPU exact halo equality including level-28 seams and rhombic macrocharts
+PS>TerminatingError(cl.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64"
+### 2026-11-12 16:00:07  BUILD done (unit tests passed)
+>> F global ring validation
+### 2026-11-12 16:00:07  F done (global ring validation passed)
+>> A session 1 buildings_n1000_L12_h1 [gpu,atomic,flat]
+>> A session 1 buildings_n10000_L12_h1 [flat,atomic,gpu]
+>> A session 1 buildings_n100000_L12_h1 [gpu,atomic,flat]
+>> A session 1 buildings_n1000_L12_h4 [flat,atomic,gpu]
+>> A session 1 buildings_n10000_L12_h4 [gpu,atomic,flat]
+>> A session 1 buildings_n100000_L12_h4 [flat,atomic,gpu]
+>> A session 1 buildings_n1000_L12_h8 [gpu,atomic,flat]
+>> A session 1 buildings_n10000_L12_h8 [flat,atomic,gpu]
+>> A session 1 buildings_n100000_L12_h8 [gpu,atomic,flat]
+>> A session 1 buildings_n1000_L20_h1 [flat,atomic,gpu]
+>> A session 1 buildings_n10000_L20_h1 [gpu,atomic,flat]
+>> A session 1 buildings_n100000_L20_h1 [flat,atomic,gpu]
+>> A session 1 buildings_n1000_L20_h4 [gpu,atomic,flat]
+>> A session 1 buildings_n10000_L20_h4 [flat,atomic,gpu]
+>> A session 1 buildings_n100000_L20_h4 [gpu,atomic,flat]
+>> A session 1 buildings_n1000_L20_h8 [flat,atomic,gpu]
+>> A session 1 buildings_n10000_L20_h8 [gpu,atomic,flat]
+>> A session 1 buildings_n100000_L20_h8 [flat,atomic,gpu]
+>> A session 1 buildings_n1000_L28_h1 [gpu,atomic,flat]
+>> A session 1 buildings_n10000_L28_h1 [flat,atomic,gpu]
+>> A session 1 buildings_n100000_L28_h1 [gpu,atomic,flat]
+>> A session 1 buildings_n1000_L28_h4 [flat,atomic,gpu]
+>> A session 1 buildings_n10000_L28_h4 [gpu,atomic,flat]
+>> A session 1 buildings_n100000_L28_h4 [flat,atomic,gpu]
+>> A session 1 buildings_n1000_L28_h8 [gpu,atomic,flat]
+>> A session 1 buildings_n10000_L28_h8 [flat,atomic,gpu]
+>> A session 1 buildings_n100000_L28_h8 [gpu,atomic,flat]
+>> A session 1 streets_n1000_L12_h1 [flat,atomic,gpu]
+>> A session 1 streets_n10000_L12_h1 [gpu,atomic,flat]
+>> A session 1 streets_n100000_L12_h1 [flat,atomic,gpu]
+>> A session 1 streets_n1000_L12_h4 [gpu,atomic,flat]
+>> A session 1 streets_n10000_L12_h4 [flat,atomic,gpu]
+>> A session 1 streets_n100000_L12_h4 [gpu,atomic,flat]
+>> A session 1 streets_n1000_L12_h8 [flat,atomic,gpu]
+>> A session 1 streets_n10000_L12_h8 [gpu,atomic,flat]
+>> A session 1 streets_n100000_L12_h8 [flat,atomic,gpu]
+>> A session 1 streets_n1000_L20_h1 [gpu,atomic,flat]
+>> A session 1 streets_n10000_L20_h1 [flat,atomic,gpu]
+>> A session 1 streets_n100000_L20_h1 [gpu,atomic,flat]
+>> A session 1 streets_n1000_L20_h4 [flat,atomic,gpu]
+>> A session 1 streets_n10000_L20_h4 [gpu,atomic,flat]
+>> A session 1 streets_n100000_L20_h4 [flat,atomic,gpu]
+>> A session 1 streets_n1000_L20_h8 [gpu,atomic,flat]
+>> A session 1 streets_n10000_L20_h8 [flat,atomic,gpu]
+>> A session 1 streets_n100000_L20_h8 [gpu,atomic,flat]
+>> A session 1 streets_n1000_L28_h1 [flat,atomic,gpu]
+>> A session 1 streets_n10000_L28_h1 [gpu,atomic,flat]
+>> A session 1 streets_n100000_L28_h1 [flat,atomic,gpu]
+>> A session 1 streets_n1000_L28_h4 [gpu,atomic,flat]
+>> A session 1 streets_n10000_L28_h4 [flat,atomic,gpu]
+>> A session 1 streets_n100000_L28_h4 [gpu,atomic,flat]
+>> A session 1 streets_n1000_L28_h8 [flat,atomic,gpu]
+>> A session 1 streets_n10000_L28_h8 [gpu,atomic,flat]
+>> A session 1 streets_n100000_L28_h8 [flat,atomic,gpu]
+>> A session 1 boundary_n1000_L12_h1 [gpu,atomic,flat]
+>> A session 1 boundary_n10000_L12_h1 [flat,atomic,gpu]
+>> A session 1 boundary_n100000_L12_h1 [gpu,atomic,flat]
+>> A session 1 boundary_n1000_L12_h4 [flat,atomic,gpu]
+>> A session 1 boundary_n10000_L12_h4 [gpu,atomic,flat]
+>> A session 1 boundary_n100000_L12_h4 [flat,atomic,gpu]
+>> A session 1 boundary_n1000_L12_h8 [gpu,atomic,flat]
+>> A session 1 boundary_n10000_L12_h8 [flat,atomic,gpu]
+>> A session 1 boundary_n100000_L12_h8 [gpu,atomic,flat]
+>> A session 1 boundary_n1000_L20_h1 [flat,atomic,gpu]
+>> A session 1 boundary_n10000_L20_h1 [gpu,atomic,flat]
+>> A session 1 boundary_n100000_L20_h1 [flat,atomic,gpu]
+>> A session 1 boundary_n1000_L20_h4 [gpu,atomic,flat]
+>> A session 1 boundary_n10000_L20_h4 [flat,atomic,gpu]
+>> A session 1 boundary_n100000_L20_h4 [gpu,atomic,flat]
+>> A session 1 boundary_n1000_L20_h8 [flat,atomic,gpu]
+>> A session 1 boundary_n10000_L20_h8 [gpu,atomic,flat]
+>> A session 1 boundary_n100000_L20_h8 [flat,atomic,gpu]
+>> A session 1 boundary_n1000_L28_h1 [gpu,atomic,flat]
+>> A session 1 boundary_n10000_L28_h1 [flat,atomic,gpu]
+>> A session 1 boundary_n100000_L28_h1 [gpu,atomic,flat]
+>> A session 1 boundary_n1000_L28_h4 [flat,atomic,gpu]
+>> A session 1 boundary_n10000_L28_h4 [gpu,atomic,flat]
+>> A session 1 boundary_n100000_L28_h4 [flat,atomic,gpu]
+>> A session 1 boundary_n1000_L28_h8 [gpu,atomic,flat]
+>> A session 1 boundary_n10000_L28_h8 [flat,atomic,gpu]
+>> A session 1 boundary_n100000_L28_h8 [gpu,atomic,flat]
+Merged: A_session1_matrix.csv (486 rows)
+### 2026-11-12 16:07:11  A session 1 done
+>> A session 2 buildings_n1000_L12_h1 [flat,atomic,gpu]
+>> A session 2 buildings_n10000_L12_h1 [gpu,atomic,flat]
+>> A session 2 buildings_n100000_L12_h1 [flat,atomic,gpu]
+>> A session 2 buildings_n1000_L12_h4 [gpu,atomic,flat]
+>> A session 2 buildings_n10000_L12_h4 [flat,atomic,gpu]
+>> A session 2 buildings_n100000_L12_h4 [gpu,atomic,flat]
+>> A session 2 buildings_n1000_L12_h8 [flat,atomic,gpu]
+>> A session 2 buildings_n10000_L12_h8 [gpu,atomic,flat]
+>> A session 2 buildings_n100000_L12_h8 [flat,atomic,gpu]
+>> A session 2 buildings_n1000_L20_h1 [gpu,atomic,flat]
+>> A session 2 buildings_n10000_L20_h1 [flat,atomic,gpu]
+>> A session 2 buildings_n100000_L20_h1 [gpu,atomic,flat]
+>> A session 2 buildings_n1000_L20_h4 [flat,atomic,gpu]
+>> A session 2 buildings_n10000_L20_h4 [gpu,atomic,flat]
+>> A session 2 buildings_n100000_L20_h4 [flat,atomic,gpu]
+>> A session 2 buildings_n1000_L20_h8 [gpu,atomic,flat]
+>> A session 2 buildings_n10000_L20_h8 [flat,atomic,gpu]
+>> A session 2 buildings_n100000_L20_h8 [gpu,atomic,flat]
+>> A session 2 buildings_n1000_L28_h1 [flat,atomic,gpu]
+>> A session 2 buildings_n10000_L28_h1 [gpu,atomic,flat]
+>> A session 2 buildings_n100000_L28_h1 [flat,atomic,gpu]
+>> A session 2 buildings_n1000_L28_h4 [gpu,atomic,flat]
+>> A session 2 buildings_n10000_L28_h4 [flat,atomic,gpu]
+>> A session 2 buildings_n100000_L28_h4 [gpu,atomic,flat]
+>> A session 2 buildings_n1000_L28_h8 [flat,atomic,gpu]
+>> A session 2 buildings_n10000_L28_h8 [gpu,atomic,flat]
+>> A session 2 buildings_n100000_L28_h8 [flat,atomic,gpu]
+>> A session 2 streets_n1000_L12_h1 [gpu,atomic,flat]
+>> A session 2 streets_n10000_L12_h1 [flat,atomic,gpu]
+>> A session 2 streets_n100000_L12_h1 [gpu,atomic,flat]
+>> A session 2 streets_n1000_L12_h4 [flat,atomic,gpu]
+>> A session 2 streets_n10000_L12_h4 [gpu,atomic,flat]
+>> A session 2 streets_n100000_L12_h4 [flat,atomic,gpu]
+>> A session 2 streets_n1000_L12_h8 [gpu,atomic,flat]
+>> A session 2 streets_n10000_L12_h8 [flat,atomic,gpu]
+>> A session 2 streets_n100000_L12_h8 [gpu,atomic,flat]
+>> A session 2 streets_n1000_L20_h1 [flat,atomic,gpu]
+>> A session 2 streets_n10000_L20_h1 [gpu,atomic,flat]
+>> A session 2 streets_n100000_L20_h1 [flat,atomic,gpu]
+>> A session 2 streets_n1000_L20_h4 [gpu,atomic,flat]
+>> A session 2 streets_n10000_L20_h4 [flat,atomic,gpu]
+>> A session 2 streets_n100000_L20_h4 [gpu,atomic,flat]
+>> A session 2 streets_n1000_L20_h8 [flat,atomic,gpu]
+>> A session 2 streets_n10000_L20_h8 [gpu,atomic,flat]
+>> A session 2 streets_n100000_L20_h8 [flat,atomic,gpu]
+>> A session 2 streets_n1000_L28_h1 [gpu,atomic,flat]
+>> A session 2 streets_n10000_L28_h1 [flat,atomic,gpu]
+>> A session 2 streets_n100000_L28_h1 [gpu,atomic,flat]
+>> A session 2 streets_n1000_L28_h4 [flat,atomic,gpu]
+>> A session 2 streets_n10000_L28_h4 [gpu,atomic,flat]
+>> A session 2 streets_n100000_L28_h4 [flat,atomic,gpu]
+>> A session 2 streets_n1000_L28_h8 [gpu,atomic,flat]
+>> A session 2 streets_n10000_L28_h8 [flat,atomic,gpu]
+>> A session 2 streets_n100000_L28_h8 [gpu,atomic,flat]
+>> A session 2 boundary_n1000_L12_h1 [flat,atomic,gpu]
+>> A session 2 boundary_n10000_L12_h1 [gpu,atomic,flat]
+>> A session 2 boundary_n100000_L12_h1 [flat,atomic,gpu]
+>> A session 2 boundary_n1000_L12_h4 [gpu,atomic,flat]
+>> A session 2 boundary_n10000_L12_h4 [flat,atomic,gpu]
+>> A session 2 boundary_n100000_L12_h4 [gpu,atomic,flat]
+>> A session 2 boundary_n1000_L12_h8 [flat,atomic,gpu]
+>> A session 2 boundary_n10000_L12_h8 [gpu,atomic,flat]
+>> A session 2 boundary_n100000_L12_h8 [flat,atomic,gpu]
+>> A session 2 boundary_n1000_L20_h1 [gpu,atomic,flat]
+>> A session 2 boundary_n10000_L20_h1 [flat,atomic,gpu]
+>> A session 2 boundary_n100000_L20_h1 [gpu,atomic,flat]
+>> A session 2 boundary_n1000_L20_h4 [flat,atomic,gpu]
+>> A session 2 boundary_n10000_L20_h4 [gpu,atomic,flat]
+>> A session 2 boundary_n100000_L20_h4 [flat,atomic,gpu]
+>> A session 2 boundary_n1000_L20_h8 [gpu,atomic,flat]
+>> A session 2 boundary_n10000_L20_h8 [flat,atomic,gpu]
+>> A session 2 boundary_n100000_L20_h8 [gpu,atomic,flat]
+>> A session 2 boundary_n1000_L28_h1 [flat,atomic,gpu]
+>> A session 2 boundary_n10000_L28_h1 [gpu,atomic,flat]
+>> A session 2 boundary_n100000_L28_h1 [flat,atomic,gpu]
+>> A session 2 boundary_n1000_L28_h4 [gpu,atomic,flat]
+>> A session 2 boundary_n10000_L28_h4 [flat,atomic,gpu]
+>> A session 2 boundary_n100000_L28_h4 [gpu,atomic,flat]
+>> A session 2 boundary_n1000_L28_h8 [flat,atomic,gpu]
+>> A session 2 boundary_n10000_L28_h8 [gpu,atomic,flat]
+>> A session 2 boundary_n100000_L28_h8 [flat,atomic,gpu]
+Merged: A_session2_matrix.csv (486 rows)
+### 2026-11-12 16:14:09  A session 2 done
+>> A session 3 buildings_n1000_L12_h1 [gpu,atomic,flat]
+>> A session 3 buildings_n10000_L12_h1 [flat,atomic,gpu]
+>> A session 3 buildings_n100000_L12_h1 [gpu,atomic,flat]
+>> A session 3 buildings_n1000_L12_h4 [flat,atomic,gpu]
+>> A session 3 buildings_n10000_L12_h4 [gpu,atomic,flat]
+>> A session 3 buildings_n100000_L12_h4 [flat,atomic,gpu]
+>> A session 3 buildings_n1000_L12_h8 [gpu,atomic,flat]
+>> A session 3 buildings_n10000_L12_h8 [flat,atomic,gpu]
+>> A session 3 buildings_n100000_L12_h8 [gpu,atomic,flat]
+>> A session 3 buildings_n1000_L20_h1 [flat,atomic,gpu]
+>> A session 3 buildings_n10000_L20_h1 [gpu,atomic,flat]
+>> A session 3 buildings_n100000_L20_h1 [flat,atomic,gpu]
+>> A session 3 buildings_n1000_L20_h4 [gpu,atomic,flat]
+>> A session 3 buildings_n10000_L20_h4 [flat,atomic,gpu]
+>> A session 3 buildings_n100000_L20_h4 [gpu,atomic,flat]
+>> A session 3 buildings_n1000_L20_h8 [flat,atomic,gpu]
+>> A session 3 buildings_n10000_L20_h8 [gpu,atomic,flat]
+>> A session 3 buildings_n100000_L20_h8 [flat,atomic,gpu]
+>> A session 3 buildings_n1000_L28_h1 [gpu,atomic,flat]
+>> A session 3 buildings_n10000_L28_h1 [flat,atomic,gpu]
+>> A session 3 buildings_n100000_L28_h1 [gpu,atomic,flat]
+>> A session 3 buildings_n1000_L28_h4 [flat,atomic,gpu]
+>> A session 3 buildings_n10000_L28_h4 [gpu,atomic,flat]
+>> A session 3 buildings_n100000_L28_h4 [flat,atomic,gpu]
+>> A session 3 buildings_n1000_L28_h8 [gpu,atomic,flat]
+>> A session 3 buildings_n10000_L28_h8 [flat,atomic,gpu]
+>> A session 3 buildings_n100000_L28_h8 [gpu,atomic,flat]
+>> A session 3 streets_n1000_L12_h1 [flat,atomic,gpu]
+>> A session 3 streets_n10000_L12_h1 [gpu,atomic,flat]
+>> A session 3 streets_n100000_L12_h1 [flat,atomic,gpu]
+>> A session 3 streets_n1000_L12_h4 [gpu,atomic,flat]
+>> A session 3 streets_n10000_L12_h4 [flat,atomic,gpu]
+>> A session 3 streets_n100000_L12_h4 [gpu,atomic,flat]
+>> A session 3 streets_n1000_L12_h8 [flat,atomic,gpu]
+>> A session 3 streets_n10000_L12_h8 [gpu,atomic,flat]
+>> A session 3 streets_n100000_L12_h8 [flat,atomic,gpu]
+>> A session 3 streets_n1000_L20_h1 [gpu,atomic,flat]
+>> A session 3 streets_n10000_L20_h1 [flat,atomic,gpu]
+>> A session 3 streets_n100000_L20_h1 [gpu,atomic,flat]
+>> A session 3 streets_n1000_L20_h4 [flat,atomic,gpu]
+>> A session 3 streets_n10000_L20_h4 [gpu,atomic,flat]
+>> A session 3 streets_n100000_L20_h4 [flat,atomic,gpu]
+>> A session 3 streets_n1000_L20_h8 [gpu,atomic,flat]
+>> A session 3 streets_n10000_L20_h8 [flat,atomic,gpu]
+>> A session 3 streets_n100000_L20_h8 [gpu,atomic,flat]
+>> A session 3 streets_n1000_L28_h1 [flat,atomic,gpu]
+>> A session 3 streets_n10000_L28_h1 [gpu,atomic,flat]
+>> A session 3 streets_n100000_L28_h1 [flat,atomic,gpu]
+>> A session 3 streets_n1000_L28_h4 [gpu,atomic,flat]
+>> A session 3 streets_n10000_L28_h4 [flat,atomic,gpu]
+>> A session 3 streets_n100000_L28_h4 [gpu,atomic,flat]
+>> A session 3 streets_n1000_L28_h8 [flat,atomic,gpu]
+>> A session 3 streets_n10000_L28_h8 [gpu,atomic,flat]
+>> A session 3 streets_n100000_L28_h8 [flat,atomic,gpu]
+>> A session 3 boundary_n1000_L12_h1 [gpu,atomic,flat]
+>> A session 3 boundary_n10000_L12_h1 [flat,atomic,gpu]
+>> A session 3 boundary_n100000_L12_h1 [gpu,atomic,flat]
+>> A session 3 boundary_n1000_L12_h4 [flat,atomic,gpu]
+>> A session 3 boundary_n10000_L12_h4 [gpu,atomic,flat]
+>> A session 3 boundary_n100000_L12_h4 [flat,atomic,gpu]
+>> A session 3 boundary_n1000_L12_h8 [gpu,atomic,flat]
+>> A session 3 boundary_n10000_L12_h8 [flat,atomic,gpu]
+>> A session 3 boundary_n100000_L12_h8 [gpu,atomic,flat]
+>> A session 3 boundary_n1000_L20_h1 [flat,atomic,gpu]
+>> A session 3 boundary_n10000_L20_h1 [gpu,atomic,flat]
+>> A session 3 boundary_n100000_L20_h1 [flat,atomic,gpu]
+>> A session 3 boundary_n1000_L20_h4 [gpu,atomic,flat]
+>> A session 3 boundary_n10000_L20_h4 [flat,atomic,gpu]
+>> A session 3 boundary_n100000_L20_h4 [gpu,atomic,flat]
+>> A session 3 boundary_n1000_L20_h8 [flat,atomic,gpu]
+>> A session 3 boundary_n10000_L20_h8 [gpu,atomic,flat]
+>> A session 3 boundary_n100000_L20_h8 [flat,atomic,gpu]
+>> A session 3 boundary_n1000_L28_h1 [gpu,atomic,flat]
+>> A session 3 boundary_n10000_L28_h1 [flat,atomic,gpu]
+>> A session 3 boundary_n100000_L28_h1 [gpu,atomic,flat]
+>> A session 3 boundary_n1000_L28_h4 [flat,atomic,gpu]
+>> A session 3 boundary_n10000_L28_h4 [gpu,atomic,flat]
+>> A session 3 boundary_n100000_L28_h4 [flat,atomic,gpu]
+>> A session 3 boundary_n1000_L28_h8 [gpu,atomic,flat]
+>> A session 3 boundary_n10000_L28_h8 [flat,atomic,gpu]
+>> A session 3 boundary_n100000_L28_h8 [gpu,atomic,flat]
+Merged: A_session3_matrix.csv (486 rows)
+### 2026-11-12 16:21:07  A session 3 done
+>> D reference buildings_n100000_L28_h8
+>> D kernel_per_ring buildings_n100000_L28_h8
+>> D thread_append buildings_n100000_L28_h8
+>> D morton_hash buildings_n100000_L28_h8
+>> D load_0.25 buildings_n100000_L28_h8
+>> D load_0.7 buildings_n100000_L28_h8
+>> D scatter_clear buildings_n100000_L28_h8
+>> D pageable_transfer buildings_n100000_L28_h8
+>> D no_arrival_skip buildings_n100000_L28_h8
+>> D no_read_before_cas buildings_n100000_L28_h8
+>> D preflight_every_call buildings_n100000_L28_h8
+>> D separate_control_clears buildings_n100000_L28_h8
+>> D no_mechanisms buildings_n100000_L28_h8
+>> D realized_capacity buildings_n100000_L28_h8
+>> D reference streets_n100000_L20_h8
+>> D kernel_per_ring streets_n100000_L20_h8
+>> D thread_append streets_n100000_L20_h8
+>> D morton_hash streets_n100000_L20_h8
+>> D load_0.25 streets_n100000_L20_h8
+>> D load_0.7 streets_n100000_L20_h8
+>> D scatter_clear streets_n100000_L20_h8
+>> D pageable_transfer streets_n100000_L20_h8
+>> D no_arrival_skip streets_n100000_L20_h8
+>> D no_read_before_cas streets_n100000_L20_h8
+>> D preflight_every_call streets_n100000_L20_h8
+>> D separate_control_clears streets_n100000_L20_h8
+>> D no_mechanisms streets_n100000_L20_h8
+>> D realized_capacity streets_n100000_L20_h8
+>> D reference buildings_n10000_L28_h8
+>> D kernel_per_ring buildings_n10000_L28_h8
+>> D thread_append buildings_n10000_L28_h8
+>> D morton_hash buildings_n10000_L28_h8
+>> D load_0.25 buildings_n10000_L28_h8
+>> D load_0.7 buildings_n10000_L28_h8
+>> D scatter_clear buildings_n10000_L28_h8
+>> D pageable_transfer buildings_n10000_L28_h8
+>> D no_arrival_skip buildings_n10000_L28_h8
+>> D no_read_before_cas buildings_n10000_L28_h8
+>> D preflight_every_call buildings_n10000_L28_h8
+>> D separate_control_clears buildings_n10000_L28_h8
+>> D no_mechanisms buildings_n10000_L28_h8
+>> D realized_capacity buildings_n10000_L28_h8
+>> D reference buildings_n100000_L12_h4
+>> D kernel_per_ring buildings_n100000_L12_h4
+>> D thread_append buildings_n100000_L12_h4
+>> D masked_hash buildings_n100000_L12_h4
+>> D morton_hash buildings_n100000_L12_h4
+>> D load_0.25 buildings_n100000_L12_h4
+>> D load_0.7 buildings_n100000_L12_h4
+>> D scatter_clear buildings_n100000_L12_h4
+>> D pageable_transfer buildings_n100000_L12_h4
+>> D no_arrival_skip buildings_n100000_L12_h4
+>> D no_read_before_cas buildings_n100000_L12_h4
+>> D preflight_every_call buildings_n100000_L12_h4
+>> D separate_control_clears buildings_n100000_L12_h4
+>> D no_mechanisms buildings_n100000_L12_h4
+>> D realized_capacity buildings_n100000_L12_h4
+>> D reference boundary_n1000_L12_h1
+>> D kernel_per_ring boundary_n1000_L12_h1
+>> D thread_append boundary_n1000_L12_h1
+>> D masked_hash boundary_n1000_L12_h1
+>> D morton_hash boundary_n1000_L12_h1
+>> D load_0.25 boundary_n1000_L12_h1
+>> D load_0.7 boundary_n1000_L12_h1
+>> D scatter_clear boundary_n1000_L12_h1
+>> D pageable_transfer boundary_n1000_L12_h1
+>> D no_arrival_skip boundary_n1000_L12_h1
+>> D no_read_before_cas boundary_n1000_L12_h1
+>> D preflight_every_call boundary_n1000_L12_h1
+>> D separate_control_clears boundary_n1000_L12_h1
+>> D no_mechanisms boundary_n1000_L12_h1
+>> D realized_capacity boundary_n1000_L12_h1
+Merged: D_controlled_variants.csv (268 rows)
+### 2026-11-12 16:26:21  D done
+>> B tight compact_L10
+>> B tight compact_L16
+>> B tight compact_L28
+>> B tight scattered_L10
+>> B tight scattered_L28
+>> B tight buildings_L20
+>> B tight buildings_L28
+>> B auto compact_L10
+>> B auto compact_L16
+>> B auto compact_L28
+>> B auto scattered_L10
+>> B auto scattered_L28
+>> B auto buildings_L20
+>> B auto buildings_L28
+Merged: B_representation.csv (60 rows)
+### 2026-11-12 16:30:49  B done
+### 2026-11-12 16:30:49  FINISHED stage=ALL
+**********************
+Windows PowerShell transcript end
+End time: 20261112163049
+**********************

@@ -1,0 +1,3 @@
+# Keep every file byte for byte (no line ending conversion), so that the
+# checksums of the records and of the prepared data stay valid on every system.
+* -text

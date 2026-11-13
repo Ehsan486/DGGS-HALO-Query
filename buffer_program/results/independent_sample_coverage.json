@@ -1,0 +1,44 @@
+[
+  {
+    "case": "nose_hill_L12",
+    "samples": 3000,
+    "missing": 0,
+    "examples": []
+  },
+  {
+    "case": "nose_hill_L14",
+    "samples": 3000,
+    "missing": 0,
+    "examples": []
+  },
+  {
+    "case": "nose_hill_L16",
+    "samples": 3000,
+    "missing": 0,
+    "examples": []
+  },
+  {
+    "case": "point_L20",
+    "samples": 3000,
+    "missing": 0,
+    "examples": []
+  },
+  {
+    "case": "point_L28",
+    "samples": 3000,
+    "missing": 0,
+    "examples": []
+  },
+  {
+    "case": "dateline_L12",
+    "samples": 3000,
+    "missing": 0,
+    "examples": []
+  },
+  {
+    "case": "polar_L12",
+    "samples": 3000,
+    "missing": 0,
+    "examples": []
+  }
+]

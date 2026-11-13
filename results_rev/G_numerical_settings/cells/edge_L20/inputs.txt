@@ -1,0 +1,13 @@
+name=edge_L20
+level=20
+distance_m=10
+nominal_distance_m=10
+near=none
+near_offset_m=0
+near_cell=0
+source=point on midpoint of a base mesh edge of face 0
+segments=1
+segment0=-16.110873186875825,-168.69446748634698,-16.110873186875825,-168.69446748634698
+max_cells=200000
+reference_allowance_m=1.0000000000000001e-05
+reference_tolerance_m=0.0001

@@ -1,0 +1,13 @@
+name=polar_L12
+level=12
+distance_m=1000
+nominal_distance_m=1000
+near=none
+near_offset_m=0
+near_cell=0
+source=point
+segments=1
+segment0=89.998999999999995,0,89.998999999999995,0
+max_cells=200000
+reference_allowance_m=1.0000000000000001e-05
+reference_tolerance_m=0.0001

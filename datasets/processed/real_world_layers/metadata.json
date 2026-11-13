@@ -1,0 +1,73 @@
+{
+  "schema": "bafe-real-world-layer-samples-v1",
+  "generated_at_utc": "2026-07-20T01:19:31.071128+00:00",
+  "profile": "paper",
+  "coverage_semantics": "point distributions for traversal experiments; not polygon covers",
+  "source_crs": "EPSG:4326",
+  "metric_processing_crs": "EPSG:3776",
+  "street_spacing_m": 20.0,
+  "boundary_spacing_m": 10.0,
+  "source_files": {
+    "buildings": {
+      "path": "datasets/raw/calgary_buildings.geojson",
+      "sha256": "769db1449aad99ebe93655ac6c953036b321670e6df6855f7031d83787fa4ba8"
+    },
+    "streets": {
+      "path": "datasets/raw/calgary_streets.geojson",
+      "sha256": "eb91f263e0f6f8bbf4d1acde1e20f0a3a4ae255e18bd95179e8e43c498565d78"
+    },
+    "boundary": {
+      "path": "datasets/raw/calgary_boundary.geojson",
+      "sha256": "c99e09fb8b464ac1f481b727e1ecde4b092f8f7137654947a6a04554eb19b651"
+    }
+  },
+  "validation": {
+    "buildings": {
+      "source_features": 511586,
+      "repaired_geometries": 15
+    },
+    "streets": {
+      "source_features": 120008,
+      "repaired_geometries": 0
+    },
+    "boundary": {
+      "source_features": 1,
+      "repaired_geometries": 0
+    }
+  },
+  "outputs": {
+    "buildings": {
+      "path": "datasets/processed/real_world_layers/calgary_building_representative_points.csv",
+      "points": 100000,
+      "sha256": "b75591e079d3f26fc1600c393220065eac122313cc04f763fe477a2cd97646a0",
+      "bounds_wgs84": {
+        "min_lon": -114.33870045,
+        "min_lat": 50.8343966029,
+        "max_lon": -113.8194565992,
+        "max_lat": 51.22691265
+      }
+    },
+    "streets": {
+      "path": "datasets/processed/real_world_layers/calgary_street_samples.csv",
+      "points": 223008,
+      "sha256": "755d2ed960d6c09a33b37c0b5d51e05a38a7f1be3ad7ffe542689a6c5fc8e984",
+      "bounds_wgs84": {
+        "min_lon": -114.3079426,
+        "min_lat": 50.8485477,
+        "max_lon": -113.8597924,
+        "max_lat": 51.2125182
+      }
+    },
+    "boundary": {
+      "path": "datasets/processed/real_world_layers/calgary_boundary_samples.csv",
+      "points": 19717,
+      "sha256": "0f2b76ef91abfe5ba0b22b33f2ab2c6e41c1110545366c793e42b8243a1f5153",
+      "bounds_wgs84": {
+        "min_lon": -114.3157996276,
+        "min_lat": 50.8428307634,
+        "max_lon": -113.8599129925,
+        "max_lat": 51.2124321
+      }
+    }
+  }
+}

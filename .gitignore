@@ -1,0 +1,27 @@
+# build output
+/build*/
+/buffer_program/build*/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.a
+# local results (the records of the paper are in results_rev/ and are tracked)
+/results_local/
+/out_*/
+/figs/
+gen_settings/
+/buffer_margins
+/buffer_settings
+# downloaded raw datasets (retrieved by analysis/download_calgary_data.py)
+/datasets/raw/
+# tools
+__pycache__/
+*.pyc
+.vs/
+.vscode/
+.idea/
+CMakeUserPresets.json

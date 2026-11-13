@@ -1,0 +1,9 @@
+2026-11-12 15:59:59  START stage=ALL quick=False sessions=3 warmup=10 repeats=30 threads=20
+2026-11-12 16:00:07  BUILD done (unit tests passed)
+2026-11-12 16:00:07  F done (global ring validation passed)
+2026-11-12 16:07:11  A session 1 done
+2026-11-12 16:14:09  A session 2 done
+2026-11-12 16:21:07  A session 3 done
+2026-11-12 16:26:21  D done
+2026-11-12 16:30:49  B done
+2026-11-12 16:30:49  FINISHED stage=ALL
