@@ -159,7 +159,30 @@ No other compiler, GPU, or operating system was tested. The scripts for Windows 
 
 ## Citation
 
-See `CITATION.cff`.
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper given under preferred-citation."
+title: "DGGS-HALO-Query: exact halo queries on a triangular discrete global grid system"
+type: software
+version: "1.2.0"
+authors:
+  - family-names: Moradi
+    given-names: Ehsan
+    affiliation: "Department of Computer Science, University of Calgary"
+  - family-names: Samavati
+    given-names: "Faramarz F."
+    affiliation: "Department of Computer Science, University of Calgary"
+repository-code: "https://github.com/Ehsan486/DGGS-HALO-Query"
+preferred-citation:
+  type: article
+  title: "From Topological Distance to Spatial Buffers: Efficient Halo Queries on Triangular DGGS"
+  authors:
+    - family-names: Moradi
+      given-names: Ehsan
+    - family-names: Samavati
+      given-names: "Faramarz F."
+  journal: "ISPRS International Journal of Geo-Information"
+  year: 2026
+  status: submitted
 
 ## License
 
